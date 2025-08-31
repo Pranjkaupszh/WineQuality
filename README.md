@@ -2,6 +2,30 @@
 
 (here)
 ##MLflow on Streamlit
+Make sure you have Python 3.8+ installed. Then install the required packages:
+
+pip install -r requirements.txt
+
+🚀 Run the Streamlit App
+
+In your terminal or command prompt:
+
+streamlit run app.py
+
+This will start a local Streamlit server and open the app in your browser at:
+
+http://localhost::
+
+📊 Use MLflow UI to Track Experiments
+
+This project uses MLflow to log:
+Parameters
+Metrics
+Model artifacts (saved models)
+
+To view your MLflow experiments:
+write this command:
+mlflow ui
 
 ## MLflow on AWS Setup:
 
@@ -45,4 +69,5 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflowtracking1
 
 
 #set uri in your local terminal and in your code 
+
 export MLFLOW_TRACKING_URI=http://ec2-54-158-152-207.compute-1.amazonaws.com:5000/
