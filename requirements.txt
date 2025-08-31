@@ -1,0 +1,4 @@
+mlflow
+dvc
+boto3
+streamlit
