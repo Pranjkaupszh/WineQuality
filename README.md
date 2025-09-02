@@ -27,6 +27,8 @@ To view your MLflow experiments:
 write this command:
 mlflow ui
 
+Check the app here: https://winequalitycheck.streamlit.app/
+
 ## MLflow on AWS Setup:
 
 1. Login to AWS console.
@@ -71,3 +73,4 @@ mlflow server -h 0.0.0.0 --default-artifact-root s3://mlflowtracking1
 #set uri in your local terminal and in your code 
 
 export MLFLOW_TRACKING_URI=http://ec2-54-158-152-207.compute-1.amazonaws.com:5000/
+
